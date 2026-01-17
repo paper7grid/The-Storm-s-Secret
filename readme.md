@@ -1,0 +1,1 @@
+Hello!! This is a readme for my game The Storm's Secret. It is a visual novel mystery game!
