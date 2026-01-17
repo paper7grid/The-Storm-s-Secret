@@ -9,8 +9,6 @@ define s = Character("Mr. Sterling", color="#000000")
 define l = Character("Lila", color="#510129")
 define v = Character("Victor", color="#250101")
 #hello 
-
-
 # The game starts here.
 
 label start:
@@ -50,3 +48,5 @@ label start:
     # This ends the game.
 
     return
+
+label second_scene:
