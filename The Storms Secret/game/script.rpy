@@ -1,10 +1,13 @@
 # The script of the game goes in this file.
 
 # Declare characters used by this game. The color argument colorizes the
-# name of the character.
-why 
+# name of the character. 
 
-define e = Character("Eileen")
+define n = Character("Narrator")
+define e = Character("Ethan Sterling", color="#01011d")
+define s = Character("Mr. Sterling", color="#000000")
+define l = Character("Lila", color="#510129")
+define v = Character("Victor", color="#250101")
 #hello 
 
 
@@ -26,23 +29,23 @@ label start:
 
     # These display lines of dialogue.
 
-    e "On the top of the hill in his huge house."
-    e "lived Mr. Sterling, a wealthy businessman."
+    n "On the top of the hill in his huge house."
+    n "lived Mr. Sterling, a wealthy businessman."
 
-    e "Welcome to Sterling's mansion."
+    n "Welcome to Sterling's mansion."
 
     scene dinner
-    e "welcome, please have a seat."
+    s "welcome, please have a seat."
 
     show ethan
-    show mr.sterling
-    e "This is Ethan Sterling, my nephew."
+    show mrsterling
+    s "This is Ethan Sterling, my nephew."
 
     show lila
-    e "Mr. sterling "And this is my fiance, Lila.""
+    s "And this is my fiance, Lila."
     
     show victor
-    e "And this is my business partner, Victor."
+    s "And this is my business partner, Victor."
 
     # This ends the game.
 
