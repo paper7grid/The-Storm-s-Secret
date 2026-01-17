@@ -26,10 +26,23 @@ label start:
 
     # These display lines of dialogue.
 
-    e "hello, my first line!!"
+    e "On the top of the hill in his huge house."
+    e "lived Mr. Sterling, a wealthy businessman."
 
-    e "Using renpy is quite fun."
-    e "I hope to make more complex games soon."
+    e "Welcome to Sterling's mansion."
+
+    scene dinner
+    e "welcome, please have a seat."
+
+    show ethan
+    show mr.sterling
+    e "This is Ethan Sterling, my nephew."
+
+    show lila
+    e "Mr. sterling "And this is my fiance, Lila.""
+    
+    show victor
+    e "And this is my business partner, Victor."
 
     # This ends the game.
 
