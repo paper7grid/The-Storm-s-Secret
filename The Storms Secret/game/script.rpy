@@ -29,6 +29,7 @@ label start:
     e "hello, my first line!!"
 
     e "Using renpy is quite fun."
+    e "I hope to make more complex games soon."
 
     # This ends the game.
 
