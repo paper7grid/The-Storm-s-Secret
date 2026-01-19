@@ -9,22 +9,21 @@ define s = Character("Mr. Sterling", color="#000000")
 define l = Character("Lila", color="#510129")
 define v = Character("Victor", color="#250101")
 image SC_Hall = "SceneH1.png"
-
+image fscene = "SCHill.png"
+image study = "SCstudy.png"
+image black = Solid("#000")
 #hello 
 # The game starts here.
 
 label start:
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
+   
 
-    scene bg room
+    scene fscene
 
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show eileen happy
 
     # These display lines of dialogue.
 
@@ -48,6 +47,23 @@ label start:
     s "And this is my business partner, Victor."
 
     # This ends the game.
+
+    scene black with fade
+    n "And just as you were about to settle down for the night, after a delicious dinner..."
+    
+    n "A sudden shrill scream echoed through the mansion, in the dead silence."
+    n "you hurried out of your room to find the source of the scream."
+
+    n "It was Laila, standing outside the study room, trembling with fear."
+
+    n "You asked her what happened."
+    l "I - I- think... come here... quick...look"
+    n "She pointed towards the study room and as you enter the room, you are met with a horrifying sight."
+
+    scene study
+    n "Mr. Sterling was lying on his desk, motionless, with a bloody knife in sight and an open letter in front of him."
+
+    l "Oh my god! HELP call the police! oh lord, he is dead! suicide??"
 
 
     return
