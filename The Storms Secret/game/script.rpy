@@ -8,7 +8,7 @@ define e = Character("Ethan Sterling", color="#01011d")
 define s = Character("Mr. Sterling", color="#000000")
 define l = Character("Lila", color="#510129")
 define v = Character("Victor", color="#250101")
-image SC_Hall = im.Scale("SCHALL.png", 1280, 720)
+image SC_Hall = "SceneH1.png"
 
 #hello 
 # The game starts here.

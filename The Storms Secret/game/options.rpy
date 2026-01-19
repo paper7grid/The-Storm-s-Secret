@@ -12,6 +12,9 @@
 ##
 ## The _() surrounding the string marks it as eligible for translation.
 
+define config.screen_width = 1380
+define config.screen_height = 920
+
 define config.name = _("The Storms Secret")
 
 
