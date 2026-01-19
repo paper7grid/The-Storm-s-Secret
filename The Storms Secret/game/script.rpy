@@ -8,6 +8,8 @@ define e = Character("Ethan Sterling", color="#01011d")
 define s = Character("Mr. Sterling", color="#000000")
 define l = Character("Lila", color="#510129")
 define v = Character("Victor", color="#250101")
+image SC_Hall = "SC_Hall.png"
+
 #hello 
 # The game starts here.
 
@@ -31,7 +33,8 @@ label start:
 
     n "Welcome to Sterling's mansion."
 
-    scene dinner
+    scene SC_Hall
+
     s "welcome, please have a seat."
 
     show ethan
