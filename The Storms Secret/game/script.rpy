@@ -17,7 +17,6 @@ image black = Solid("#000")
 # The game starts here.
 
 label start:
-   
 
     scene fscene
 
@@ -50,8 +49,6 @@ label start:
 
     # This ends the game.
 
-
-
     return
 
 label second_scene:
@@ -61,6 +58,7 @@ label second_scene:
     n "A sudden shrill scream echoed through the mansion, in the dead silence."
     n "you hurried out of your room to find the source of the scream."
 
+    show lila
     n "It was Laila, standing outside the study room, trembling with fear."
 
     d "You asked her what happened."
@@ -72,4 +70,21 @@ label second_scene:
 
     l "Oh my god! HELP call the police! oh lord, he is dead! suicide??"
 
+label third_scene: 
+    scene black with dissolve
+    n "After a few moments of chaos in the study room, you all gather in the living room."
 
+    scene SC_Hall
+    show detective
+    d "I think we should all stay together for now."
+    d "If there is a killer in the house, we should be careful."
+
+
+    show victor
+    v "I agree with Detective Alex. We should be cautious."
+    v "but I think if this is a suicide, I think it's a bit sad."
+
+    n "as Lila sobs"
+
+    l "I can't believe he is gone, oh what a poor soul."
+    
