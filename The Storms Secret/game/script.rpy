@@ -47,8 +47,6 @@ label start:
     show mrsterling
     s "We were just discussing about our future business plans when my enphew and fiance stopped by and because of the rain they will be spending the noght here"
 
-    # This ends the game.
-
     return
 
 label second_scene:
@@ -87,4 +85,19 @@ label third_scene:
     n "as Lila sobs"
 
     l "I can't believe he is gone, oh what a poor soul."
+
+    n "The night passed in silence, with everyone staying close together, trying to make sense of the tragedy."
+
+    n "As the detective in the scene you get to work on solving the mystery of Mr. Sterling's death."
+
+    d "So who was there at that time?"
+
+    e "I was just passing by to get some water."
+
+    l "I was in my room, when I heard a loud noise" 
+
+    d "so you heard a loud noise while sleeping... hmm.."
+    d "And what time was it when you, Ethan, were passing by?"
+
+    e "probably somewhere around 10:30 at night"
     
