@@ -61,6 +61,7 @@ label start:
     n "And just as you were about to settle down for the night, after a delicious dinner..."
     
     n "A sudden shrill scream echoed through the mansion, in the dead silence."
+
     n "you hurried out of your room to find the source of the scream."
 
     show lila at left
