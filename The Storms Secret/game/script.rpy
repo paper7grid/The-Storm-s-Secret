@@ -9,13 +9,19 @@ define s = Character("Mr. Sterling", color="#000000")
 define l = Character("Lila", color="#510129")
 define v = Character("Victor", color="#250101")
 define d = Character("Detective alex (you)", color="#474701")
+
+transform half_size: 
+    zoom 0.5
+
+# Then use it in image definitions
 image SC_Hall = "SceneH1.png"
 image fscene = "SCHill.png"
 image study = "SCstudy.png"
 image black = Solid("#000")
-image ethan = "ethan.png" zoom 0.35
-image lila = "lila.png" zoom 0.35
-image victor = "victor.png" zoom 0.35
+image ethan = "ethan.png"
+image lila = "lila.png"
+image victor = "victor.png"
+
 #hello 
 # The game starts here.
 
@@ -37,14 +43,14 @@ label start:
 
     s "welcome my old friend Alex! please have a seat."
 
-    show ethan at left
+    show ethan at half_size
     show mrsterling
     s "This is Ethan Sterling, my nephew."
 
-    show lila at left
+    show lila at half_size
     s "And this is my fiance, Lila."
     
-    show victor at right
+    show victor at half_size
     s "And this is my business partner, Victor."
 
     s "We were just discussing about our future business plans when my enphew and fiance stopped by and because of the rain they will be spending the noght here"
@@ -78,13 +84,13 @@ label start:
     d "If there is a killer in the house, we should be careful."
 
 
-    show victor
+    show victor at half_size
     v "I agree with Detective Alex. We should be cautious."
     v "but I think if this is a suicide, I think it's a bit sad."
 
     n "as Lila sobs"
 
-    show lila 
+    show lila at half_size
     l "I can't believe he is gone, oh what a poor soul."
 
     n "The night passed in silence, with everyone staying close together, trying to make sense of the tragedy."
@@ -93,12 +99,15 @@ label start:
 
     d "So who was there at that time?"
 
-    show ethan 
+    show ethan at half_size
     e "I was just passing by to get some water."
 
+    show lila at half_size
     l "I was in my room, when I heard a loud noise" 
 
     d "so you heard a loud noise while sleeping... hmm.."
     d "And what time was it when you, Ethan, were passing by?"
 
     e "probably somewhere around 10:30 at night"
+
+    # sorry this game is not finished copletely due to the fact that I did not have enought time for the art. But I will conintue working on it soon and compelte the game!!
