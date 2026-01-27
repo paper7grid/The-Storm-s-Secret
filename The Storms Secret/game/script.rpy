@@ -13,9 +13,9 @@ image SC_Hall = "SceneH1.png"
 image fscene = "SCHill.png"
 image study = "SCstudy.png"
 image black = Solid("#000")
-image ethan = "ethan.png"
-image lila = "lila.png"
-image victor = "victor.png"
+image ethan = "ethan.png" zoom 0.35
+image lila = "lila.png" zoom 0.35
+image victor = "victor.png" zoom 0.35
 #hello 
 # The game starts here.
 
@@ -37,11 +37,11 @@ label start:
 
     s "welcome my old friend Alex! please have a seat."
 
-    show ethan with moveinleft
+    show ethan at left
     show mrsterling
     s "This is Ethan Sterling, my nephew."
 
-    show lila with moveinleft
+    show lila at left
     s "And this is my fiance, Lila."
     
     show victor at right
@@ -49,16 +49,15 @@ label start:
 
     s "We were just discussing about our future business plans when my enphew and fiance stopped by and because of the rain they will be spending the noght here"
 
-    return
+  
 
-label second_scene:
     scene black with fade
     n "And just as you were about to settle down for the night, after a delicious dinner..."
     
     n "A sudden shrill scream echoed through the mansion, in the dead silence."
     n "you hurried out of your room to find the source of the scream."
 
-    show lila at with moveinleft
+    show lila at left
     n "It was Laila, standing outside the study room, trembling with fear."
 
     d "You asked her what happened."
@@ -70,12 +69,11 @@ label second_scene:
 
     l "Oh my god! HELP call the police! oh lord, he is dead! suicide??"
 
-label third_scene: 
     scene black with dissolve
     n "After a few moments of chaos in the study room, you all gather in the living room."
 
     scene SC_Hall
-    show detective
+    show detective 
     d "I think we should all stay together for now."
     d "If there is a killer in the house, we should be careful."
 
@@ -86,6 +84,7 @@ label third_scene:
 
     n "as Lila sobs"
 
+    show lila 
     l "I can't believe he is gone, oh what a poor soul."
 
     n "The night passed in silence, with everyone staying close together, trying to make sense of the tragedy."
@@ -94,6 +93,7 @@ label third_scene:
 
     d "So who was there at that time?"
 
+    show ethan 
     e "I was just passing by to get some water."
 
     l "I was in my room, when I heard a loud noise" 
