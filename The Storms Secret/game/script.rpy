@@ -13,6 +13,9 @@ image SC_Hall = "SceneH1.png"
 image fscene = "SCHill.png"
 image study = "SCstudy.png"
 image black = Solid("#000")
+image ethan = "ethan.png"
+image lila = "lila.png"
+image victor = "victor.png"
 #hello 
 # The game starts here.
 
@@ -34,17 +37,16 @@ label start:
 
     s "welcome my old friend Alex! please have a seat."
 
-    show ethan
+    show ethan with moveinleft
     show mrsterling
     s "This is Ethan Sterling, my nephew."
 
-    show lila
+    show lila with moveinleft
     s "And this is my fiance, Lila."
     
-    show victor
+    show victor at right
     s "And this is my business partner, Victor."
 
-    show mrsterling
     s "We were just discussing about our future business plans when my enphew and fiance stopped by and because of the rain they will be spending the noght here"
 
     return
@@ -56,7 +58,7 @@ label second_scene:
     n "A sudden shrill scream echoed through the mansion, in the dead silence."
     n "you hurried out of your room to find the source of the scream."
 
-    show lila
+    show lila at with moveinleft
     n "It was Laila, standing outside the study room, trembling with fear."
 
     d "You asked her what happened."
@@ -100,4 +102,3 @@ label third_scene:
     d "And what time was it when you, Ethan, were passing by?"
 
     e "probably somewhere around 10:30 at night"
-    
